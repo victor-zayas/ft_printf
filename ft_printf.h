@@ -6,7 +6,7 @@
 /*   By: vzayas-s <vzayas-s@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 05:01:26 by vzayas-s          #+#    #+#             */
-/*   Updated: 2022/06/09 07:59:48 by vzayas-s         ###   ########.fr       */
+/*   Updated: 2022/06/09 16:51:02 by vzayas-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,10 @@
 
 int		ft_printf(const char *format, ...);
 int		ft_check_flag(va_list list, const char ltr);
-int		ft_putchar(char c);
-char	ft_putstr(char *str);
+int		ft_char(char c);
+char	ft_str(char *str);
 int		ft_strlen(const char *str);
-int		ft_put_unsig_nbr_base(unsigned long int unsig_nbr, char	*base);
+int		ft_unsig_base(unsigned long int unsig_nbr, char	*base);
+int		ft_nbr(int nb);
 
 #endif

@@ -6,7 +6,7 @@
 #    By: vzayas-s <vzayas-s@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/16 11:43:07 by vzayas-s          #+#    #+#              #
-#    Updated: 2022/06/16 11:55:41 by vzayas-s         ###   ########.fr        #
+#    Updated: 2022/06/16 12:02:57 by vzayas-s         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,8 +14,7 @@ NAME = libftprintf.a
 
 INCLUDE = ft_printf.h
 
-SRC = ft_printf.c	\
-	  ft_printf_utils.c
+SRC = ft_printf.c ft_printf_utils.c
 
 OBJ = $(SRC:.c=.o)
 

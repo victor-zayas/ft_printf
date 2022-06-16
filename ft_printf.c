@@ -6,7 +6,7 @@
 /*   By: vzayas-s <vzayas-s@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 16:39:46 by vzayas-s          #+#    #+#             */
-/*   Updated: 2022/06/09 17:01:34 by vzayas-s         ###   ########.fr       */
+/*   Updated: 2022/06/16 12:00:26 by vzayas-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,9 +60,3 @@ int	ft_printf(const char *str, ...)
 	va_end(format);
 	return (len);
 }
-
-/* int	main(void)
-{
-	ft_printf("mine%%\n");
-	printf("original%%\n");
-} */

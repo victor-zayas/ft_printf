@@ -6,7 +6,7 @@
 /*   By: vzayas-s <vzayas-s@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 13:08:39 by nolaso-u          #+#    #+#             */
-/*   Updated: 2022/06/09 16:50:35 by vzayas-s         ###   ########.fr       */
+/*   Updated: 2022/06/16 13:36:04 by vzayas-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_char(char c)
 	return (write(1, &c, 1));
 }
 
-char	ft_str(char *str)
+int	ft_str(char *str)
 {
 	int	i;
 
